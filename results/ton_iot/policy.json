@@ -1,0 +1,53 @@
+{
+  "mandatory_core": [
+    "net_dns_clf_mid",
+    "net_http_clf_lite",
+    "net_other_clf_mid"
+  ],
+  "budget_ncu": 5338.655699999999,
+  "epsilon": 0.02,
+  "values": {
+    "net_dns_clf_full": 0.008333,
+    "net_dns_clf_lite": 0.0,
+    "net_dns_clf_mid": null,
+    "net_dns_isoforest": 0.0,
+    "net_dns_rules": 0.0,
+    "net_http_clf_full": -0.013785,
+    "net_http_clf_lite": null,
+    "net_http_clf_mid": 0.0,
+    "net_http_isoforest": 0.0,
+    "net_http_rules": 0.0,
+    "net_other_clf_full": 0.0,
+    "net_other_clf_lite": 0.0,
+    "net_other_clf_mid": null,
+    "net_other_drift": 0.000862,
+    "net_other_isoforest": 0.0,
+    "net_other_rules": 0.000862
+  },
+  "fusion": "deterministic",
+  "fuser_stats": {
+    "mode": "deterministic",
+    "api_calls": 0,
+    "cache_hits": 0,
+    "invalid_labels": 0
+  },
+  "cost_provenance": "measured",
+  "tool_cost_ncu": {
+    "net_dns_clf_full": 3547.2463,
+    "net_dns_clf_lite": 678.0262,
+    "net_dns_clf_mid": 1846.9586,
+    "net_dns_isoforest": 1307.5994,
+    "net_dns_rules": 1.869,
+    "net_http_clf_full": 3941.114,
+    "net_http_clf_lite": 807.0998,
+    "net_http_clf_mid": 2095.1728,
+    "net_http_isoforest": 1569.0879,
+    "net_http_rules": 2.1776,
+    "net_other_clf_full": 1770.4911,
+    "net_other_clf_lite": 318.108,
+    "net_other_clf_mid": 905.0454,
+    "net_other_drift": 1.006,
+    "net_other_isoforest": 570.7192,
+    "net_other_rules": 1.0
+  }
+}

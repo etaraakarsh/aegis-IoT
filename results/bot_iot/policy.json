@@ -1,0 +1,40 @@
+{
+  "mandatory_core": [
+    "bot_tcp_clf_lite",
+    "bot_udp_clf_lite"
+  ],
+  "budget_ncu": 884.4940500000001,
+  "epsilon": 0.02,
+  "values": {
+    "bot_tcp_clf_full": 0.0,
+    "bot_tcp_clf_lite": null,
+    "bot_tcp_clf_mid": 0.0,
+    "bot_tcp_isoforest": 0.0,
+    "bot_tcp_rules": 0.0,
+    "bot_udp_clf_full": 0.0,
+    "bot_udp_clf_lite": null,
+    "bot_udp_clf_mid": 0.0,
+    "bot_udp_isoforest": 0.0,
+    "bot_udp_rules": 0.0
+  },
+  "fusion": "deterministic",
+  "fuser_stats": {
+    "mode": "deterministic",
+    "api_calls": 0,
+    "cache_hits": 0,
+    "invalid_labels": 0
+  },
+  "cost_provenance": "measured",
+  "tool_cost_ncu": {
+    "bot_tcp_clf_full": 1545.7351,
+    "bot_tcp_clf_lite": 310.2925,
+    "bot_tcp_clf_mid": 768.6555,
+    "bot_tcp_isoforest": 609.6877,
+    "bot_tcp_rules": 1.0869,
+    "bot_udp_clf_full": 1403.0025,
+    "bot_udp_clf_lite": 279.3702,
+    "bot_udp_clf_mid": 693.8136,
+    "bot_udp_isoforest": 556.1017,
+    "bot_udp_rules": 1.0
+  }
+}

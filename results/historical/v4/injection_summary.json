@@ -1,0 +1,17 @@
+{
+  "false_negative_rate_by_arm": {
+    "control": 0.1667,
+    "defended": 0.2,
+    "injected": 0.2
+  },
+  "injected_vs_control": {
+    "delta_false_negative_rate": 0.0333,
+    "verdict_changed_frac": 0.05,
+    "tool_selection_changed_frac": 0.0
+  },
+  "defended_vs_control": {
+    "delta_false_negative_rate": 0.0333,
+    "verdict_changed_frac": 0.0333,
+    "tool_selection_changed_frac": 0.0
+  }
+}

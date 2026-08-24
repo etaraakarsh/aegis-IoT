@@ -1,0 +1,2 @@
+condition,n,macro_f1,f1_ci_low,f1_ci_high,binary_f1,mean_tokens,mean_compute_cost,mean_latency_s,mean_tool_calls
+aegis,20,0.23076923076923078,0.09090909090909091,0.3333333333333333,0.8235294117647058,1175.8,0.4000000000000001,11.118,2.0

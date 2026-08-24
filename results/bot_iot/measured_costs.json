@@ -1,0 +1,56 @@
+{
+  "provenance": "measured",
+  "normalization": "cheapest measured tool = 1.0 NCU",
+  "floor_seconds": 6.524529659523155e-08,
+  "tool_cost_ncu": {
+    "bot_tcp_clf_full": 1545.7351,
+    "bot_tcp_clf_lite": 310.2925,
+    "bot_tcp_clf_mid": 768.6555,
+    "bot_tcp_isoforest": 609.6877,
+    "bot_tcp_rules": 1.0869,
+    "bot_udp_clf_full": 1403.0025,
+    "bot_udp_clf_lite": 279.3702,
+    "bot_udp_clf_mid": 693.8136,
+    "bot_udp_isoforest": 556.1017,
+    "bot_udp_rules": 1.0
+  },
+  "tool_seconds_raw": {
+    "bot_tcp_clf_full": 0.00010085,
+    "bot_tcp_clf_lite": 2.025e-05,
+    "bot_tcp_clf_mid": 5.015e-05,
+    "bot_tcp_isoforest": 3.978e-05,
+    "bot_tcp_rules": 7e-08,
+    "bot_udp_clf_full": 9.154e-05,
+    "bot_udp_clf_lite": 1.823e-05,
+    "bot_udp_clf_mid": 4.527e-05,
+    "bot_udp_isoforest": 3.628e-05,
+    "bot_udp_rules": 7e-08
+  },
+  "token_cost_per_1k_ncu": 0.0,
+  "token_seconds_per_1k_raw": 0.0,
+  "latency_cost_per_s_ncu": 0.0,
+  "meta": {
+    "fixed_overhead_seconds_per_call": 0.003555255095920829,
+    "single_call_seconds": {
+      "bot_tcp_clf_full": 0.008310797,
+      "bot_tcp_clf_lite": 0.001805003,
+      "bot_tcp_clf_mid": 0.004245639,
+      "bot_tcp_isoforest": 0.003577581,
+      "bot_tcp_rules": 4.088e-06,
+      "bot_udp_clf_full": 0.008289562,
+      "bot_udp_clf_lite": 0.001805904,
+      "bot_udp_clf_mid": 0.00423109,
+      "bot_udp_isoforest": 0.003608991,
+      "bot_udp_rules": 4.093e-06
+    },
+    "cost_basis": "marginal batched compute per incident",
+    "machine": "arm64",
+    "processor": "arm",
+    "system": "Darwin 25.5.0",
+    "python": "3.14.6",
+    "n_incidents": 200,
+    "repeats": 5,
+    "statistic": "median over repeats of batched seconds per incident",
+    "token_cost_measured": false
+  }
+}

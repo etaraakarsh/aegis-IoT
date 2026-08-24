@@ -1,0 +1,16 @@
+{
+  "benign_fraction": 0.3499834965342722,
+  "per_family_sizes": {
+    "reconnaissance": 5908,
+    "dos": 5908,
+    "ddos": 5908
+  },
+  "allow_unequal": true,
+  "seed": 0,
+  "train_n": 13633,
+  "train_majority_binary_f1": 0.7882,
+  "val_n": 5453,
+  "val_majority_binary_f1": 0.7929,
+  "test_n": 8181,
+  "test_majority_binary_f1": 0.7839
+}

@@ -1,0 +1,9 @@
+raw/
+data/*/
+!data/README.md
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+paper_figures/
+*.pdf

@@ -1,0 +1,22 @@
+{
+  "benign_fraction": 0.34999961114610795,
+  "per_family_sizes": {
+    "backdoor": 10317,
+    "ddos": 10317,
+    "dos": 10317,
+    "injection": 10317,
+    "mitm": 1043,
+    "password": 10317,
+    "ransomware": 10317,
+    "scanning": 10317,
+    "xss": 10317
+  },
+  "allow_unequal": true,
+  "seed": 0,
+  "train_n": 64291,
+  "train_majority_binary_f1": 0.7863,
+  "val_n": 25717,
+  "val_majority_binary_f1": 0.7922,
+  "test_n": 38575,
+  "test_majority_binary_f1": 0.7876
+}

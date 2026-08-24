@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: >-
+  When Cost Objectives Delete Capability: Accuracy-Constrained Tool Selection
+  for Multi-Component Intrusion Detection in IoT Networks
+message: If you use this software or these results, please cite the paper.
+type: software
+authors:
+  - given-names: Aakarsh
+    family-names: Etar
+    email: aetar@fiu.edu
+    affiliation: Florida International University
+  - given-names: Jayesh
+    family-names: Soni
+    affiliation: Florida International University
+  - given-names: Himanshu
+    family-names: Upadhyay
+    affiliation: Florida International University
+repository-code: https://github.com/GITHUB_USERNAME/aegis-iot
+license: MIT
+keywords:
+  - intrusion detection
+  - Internet of Things
+  - tool selection
+  - cost-aware inference
+  - accuracy constraints
+  - TON_IoT
+  - Bot-IoT
+preferred-citation:
+  type: article
+  title: >-
+    When Cost Objectives Delete Capability: Accuracy-Constrained Tool Selection
+    for Multi-Component Intrusion Detection in IoT Networks
+  authors:
+    - given-names: Aakarsh
+      family-names: Etar
+    - given-names: Jayesh
+      family-names: Soni
+    - given-names: Himanshu
+      family-names: Upadhyay
+  journal: Future Internet
+  publisher:
+    name: MDPI
+  year: 2026

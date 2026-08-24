@@ -1,0 +1,20 @@
+{
+  "n": 300,
+  "benign_fraction": 0.38666666666666666,
+  "fusion": "deterministic",
+  "payload_set": "in_distribution",
+  "control_fn_rate": 0.0,
+  "control_fp_rate": 0.0,
+  "injected_vs_control": {
+    "verdict_type_changed_frac": 0.0,
+    "binary_flipped_frac": 0.0,
+    "delta_fn_rate": 0.0,
+    "delta_fp_rate": 0.0
+  },
+  "defended_vs_control": {
+    "verdict_type_changed_frac": 0.0,
+    "binary_flipped_frac": 0.0,
+    "delta_fn_rate": 0.0,
+    "delta_fp_rate": 0.0
+  }
+}

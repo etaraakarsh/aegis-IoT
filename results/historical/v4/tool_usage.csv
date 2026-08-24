@@ -1,0 +1,7 @@
+condition,env_classifier,env_drift,env_fingerprint,env_isoforest,home_classifier,home_isoforest,home_rules,mod_classifier,mod_isoforest,mod_rules
+aegis,0,166,166,0,0,0,17,0,4,6
+aegis_balanced,0,166,166,12,0,183,183,105,110,5
+all,166,166,166,166,183,183,183,110,110,110
+fixed,166,166,166,166,183,183,183,110,110,110
+random,116,101,109,111,114,114,121,79,76,78
+single,0,0,189,0,0,0,183,0,0,161
