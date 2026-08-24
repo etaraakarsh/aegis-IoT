@@ -1,21 +1,3 @@
-"""
-costs.py — one total-cost number, from measurement.
-
-CHANGE FROM v5. The old cost table was hand-written placeholder constants
-(classifiers 3.0, isolation forests 1.5, everything else 1.0) with a comment
-reading "REPLACE with measured values before publishing". They were never
-replaced. Every cost figure in the v5 results -- including the headline "5.8x
-cheaper" -- was arithmetic on numbers that had been invented, not measured.
-
-This module removes that possibility. Costs are loaded from a JSON file written
-by scripts/03_measure_costs.py, which times every tool on real incidents. If the
-file is absent, load_costs() raises rather than falling back to placeholders,
-because a silent fallback is exactly how the v5 problem survived to a draft.
-
-Everything is expressed in normalized cost units (NCU), defined so that the
-cheapest measured tool equals 1.0. Tool compute and LLM tokens share the unit so
-the policy cannot reduce one by inflating the other.
-"""
 from __future__ import annotations
 
 import json
