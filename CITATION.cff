@@ -15,7 +15,7 @@ authors:
   - given-names: Himanshu
     family-names: Upadhyay
     affiliation: Florida International University
-repository-code: https://github.com/GITHUB_USERNAME/aegis-iot
+repository-code: https://github.com/etaraakarsh/aegis-IoT
 license: MIT
 keywords:
   - intrusion detection
