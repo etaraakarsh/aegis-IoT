@@ -1,28 +1,3 @@
-"""
-tools.py — the tool registry.
-
-CHANGE FROM v5. The old registry contained three classifiers (all using every
-available feature, all priced identically) plus seven auxiliary detectors that
-measured at or below zero marginal value. Selection was therefore degenerate:
-"invoke the three classifiers" was trivially optimal, and the learned policy
-converged on it every time. That made the constrained formulation impossible to
-evaluate, because there was nothing to choose between.
-
-This registry gives each group THREE classifiers at graduated feature budgets:
-
-    lite  : top 5 features by mutual information
-    mid   : top 12 features
-    full  : every live feature
-
-They differ in accuracy and, because they differ in width and tree depth, they
-differ in measured cost. The policy now faces a genuine accuracy-per-unit-cost
-tradeoff and can select a cheaper tier when the accuracy floor permits it. If
-the lite tier turns out to be nearly as good as full at a third of the cost,
-the policy should find that -- and now it can.
-
-Auxiliary detectors are retained because a registry containing only classifiers
-would beg the question.
-"""
 from __future__ import annotations
 
 import time
