@@ -4,5 +4,3 @@ scikit-learn>=1.3
 scipy>=1.10
 matplotlib>=3.7
 joblib>=1.3
-# optional, only for --fusion llm:
-# anthropic>=0.40
