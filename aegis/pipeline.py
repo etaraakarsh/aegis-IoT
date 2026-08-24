@@ -1,11 +1,3 @@
-"""
-pipeline.py — the five-agent pipeline, plus evaluation and statistics.
-
-Agents: monitoring (triage) -> threat-intel (retrieval; the injection surface)
--> analysis (family and impact) -> validation (consistency) -> supervisor
-(fusion). The security layer -- tool firewall, memory compartments, dynamic
-trust scoring -- runs across all stages.
-"""
 from __future__ import annotations
 
 import re
