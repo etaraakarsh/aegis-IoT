@@ -1,23 +1,3 @@
-"""
-data.py — corpus loaders.
-
-Two corpora are supported. They differ in one way that matters enormously and
-is worth stating before you run anything:
-
-    TON_IoT network : 60,000 flows, 23.8% benign. Comfortable.
-    Bot-IoT         : 0.013% benign. 477 normals in the 5% subset,
-                      9,543 in the full 73M-record release.
-
-Because the evaluation protocol rebalances toward a benign fraction of 0.35,
-Bot-IoT's benign count is the binding constraint on the entire pool size. The
-5% subset yields a pool of 477/0.35 = 1,363 flows, which is too small to
-support eight-way attribution. This loader therefore REFUSES the 5% subset and
-tells you why rather than silently producing a tiny evaluation set.
-
-With the full release the Theft category (1,587 records) becomes the binding
-constraint on per-family size. You may drop Theft with --drop-small to trade
-class coverage for a larger pool.
-"""
 from __future__ import annotations
 
 import glob
