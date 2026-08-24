@@ -1,24 +1,3 @@
-"""
-llm.py — language-model fusion, with real token accounting.
-
-CHANGE FROM v5. The v5 pipeline fused evidence deterministically. Token cost was
-therefore 0.00 in every reported condition, while the manuscript was titled and
-framed around large language model agents. Section 4.4 disclosed the gap, but a
-disclosure does not close it: a reviewer is entitled to ask why an agentic
-efficiency claim rests on a pipeline containing no agent.
-
-This module supplies three fusion backends:
-
-    deterministic   trust-weighted vote, no LLM, tokens = 0  (the v5 behaviour)
-    llm             real API calls, real token counts        (use for the paper)
-    replay          cached LLM responses from a previous run (free re-analysis)
-
-Run the headline experiments with --fusion llm. Use replay afterwards so that
-re-running analysis and figures costs nothing.
-
-API key:  export ANTHROPIC_API_KEY=sk-ant-...
-The dependency is optional; deterministic and replay modes need no network.
-"""
 from __future__ import annotations
 
 import hashlib
