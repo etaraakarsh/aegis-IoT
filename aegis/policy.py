@@ -1,29 +1,3 @@
-"""
-policy.py — constrained tool-invocation selection.
-
-The formulation:
-
-    minimise   sum_{t in S} c(t)
-    subject to F1(S) >= (1 - eps) * F1(T)
-               C subset-of S
-
-C is a mandatory core removed from the action space entirely. Enforcing it
-structurally rather than by penalty matters: a penalty can always be outweighed
-by a large enough cost saving, and the largest savings available are precisely
-those from skipping the most expensive tool.
-
-C is measured, never asserted. Each tool's marginal contribution is estimated by
-leave-one-out on validation; only positive contributors are admitted. In the v5
-telemetry runs one classifier scored -0.0087, so a core asserted on the
-intuition "classifiers are always useful" would have forced a harmful tool into
-every incident.
-
-TIER HANDLING (new in v6). With three classifiers per group at graduated
-feature budgets, leave-one-out under-counts every tier: removing the full tier
-changes little while mid and lite remain. The core is therefore chosen per
-group over TIERS rather than over individual tools -- we ask which single tier
-each group needs, not whether any one tool is redundant given its siblings.
-"""
 from __future__ import annotations
 
 import itertools
